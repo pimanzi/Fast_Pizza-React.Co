@@ -172,14 +172,93 @@ body {
   padding: 1.4rem 3.2rem;
   cursor: pointer;
   transition: all 0.2s;
+  margin-right: 2rem;
 }
 
 .btn:hover {
+  background-color: green;
+}
+
+.btw {
+  color: inherit;
+  font-family: inherit;
+  border: 1px solid white;
+  width: 6em;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: #edc84b;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.btw:hover {
   background-color: #e9bb24;
 }
 
-/*
-SPACING SYSTEM (px)
+.ordpizza {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid black;
+  padding-left: 3em;
+  padding-top: 2em;
+  padding-right: 1em;
+  border-radius: 2em;
+  background-color: #e9bb24;
+  box-shadow: 1px 3px 2px black;
+  padding-bottom: 3rem;
+}
+.ordpizza img {
+  width: 12rem;
+}
+.ordpizza h3 {
+  font-size: 2rem;
+}
+.ordpizza p,
+.ordpizza label {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.ordpizza input {
+  font: inherit;
+  width: 50%;
+  margin-left: 1em;
+  font-size: 1.5rem;
+}
+.pizzasord {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+.orderedh2 {
+  display: inline-block;
+  padding: 1rem 0;
+  border-top: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+.btwselected {
+  color: white;
+  font-family: inherit;
+  border: 1px solid white;
+  width: 6em;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: red;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.sump {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* SPACING SYSTEM (px) 
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 40 / 48 / 64 / 80 / 96 / 128
 
 FONT SIZE SYSTEM (px)
